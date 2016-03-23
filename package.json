@@ -49,6 +49,9 @@
     "tslint": "3.6.0",
     "typescript": "1.8.9"
   },
+  "dependencies": {
+    "id3v2": "0.1.0"
+  },
   "publishConfig": {
     "tag": "next"
   },
@@ -62,8 +65,5 @@
       "coverage",
       "dist/test"
     ]
-  },
-  "dependencies": {
-    "iconv-lite": "0.4.13"
   }
 }
