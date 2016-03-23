@@ -1,2 +1,1 @@
-export * from './dist/playlist.d.ts';
-export { M3U, EXTM3U } from './dist/type.d.ts';
+export * from './dist/src/index.d.ts';

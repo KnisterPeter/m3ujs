@@ -1,6 +1,6 @@
 import { assert } from 'chai';
 import { join } from 'path';
-import { Mp3Entry } from '../mp3-entry';
+import { Mp3Entry } from '../src/mp3-entry';
 
 describe('An mp3 entry', () => {
   let entry: Mp3Entry;

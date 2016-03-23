@@ -1,6 +1,6 @@
 import { assert } from 'chai';
-import { IType, M3U, EXTM3U } from '../type';
-import { Entry } from '../entry';
+import { IType, M3U, EXTM3U } from '../src/type';
+import { Entry } from '../src/entry';
 
 describe('A type', () => {
   let type: IType;

@@ -2,22 +2,27 @@
   "name": "m3ujs",
   "version": "0.1.0",
   "description": "Create m3u files",
-  "main": "dist/playlist.js",
+  "main": "dist/src/index.js",
+  "files": [
+    "dist/src",
+    "src",
+    "index.d.ts"
+  ],
   "scripts": {
     "clean": "rimraf dist",
     "prebuild": "npm run clean",
     "build": "tsc --sourceMap",
     "precopy-test-assets": "npm run build",
-    "copy-test-assets": "cp src/__tests__/*.mp3 dist/__tests__/",
+    "copy-test-assets": "cp test/*.mp3 dist/test/",
     "pretest": "npm run copy-test-assets",
-    "test": "mocha --require source-map-support/register --recursive dist/",
+    "test": "mocha --require source-map-support/register --recursive dist/test",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -w",
     "preversion": "npm test",
     "version": "npm run build && conventional-changelog -p angular -v -r 0 > CHANGELOG.md && git add -A .",
     "postversion": "git push && git push --tags",
     "prepublish": "not-in-install && npm run build || echo 'In install cycle, skipping prepublish'",
-    "precoverage": "npm run clean && tsc --inlineSourceMap && cp src/__tests__/*.mp3 dist/__tests__/",
-    "coverage": "nyc --reporter lcov ./node_modules/.bin/mocha --recursive dist --all"
+    "precoverage": "npm run clean && tsc --inlineSourceMap && cp test/*.mp3 dist/test/",
+    "coverage": "nyc --reporter lcov ./node_modules/.bin/mocha --recursive dist/test --all"
   },
   "repository": {
     "type": "git",
@@ -55,7 +60,7 @@
   "nyc": {
     "exclude": [
       "coverage",
-      "dist/**/__tests__/**"
+      "dist/test"
     ]
   },
   "dependencies": {

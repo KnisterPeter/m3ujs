@@ -1,9 +1,9 @@
 import { assert } from 'chai';
 import { join } from 'path';
-import { Playlist } from '../playlist';
-import { Entry } from '../entry';
-import { Mp3Entry } from '../mp3-entry';
-import { M3U, TypeEXTM3U } from '../type';
+import { Playlist } from '../src/playlist';
+import { Entry } from '../src/entry';
+import { Mp3Entry } from '../src/mp3-entry';
+import { M3U, TypeEXTM3U } from '../src/type';
 
 describe('The playlist', () => {
   let playlist: Playlist;

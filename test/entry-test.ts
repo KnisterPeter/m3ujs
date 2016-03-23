@@ -1,5 +1,5 @@
 import { assert } from 'chai';
-import { Entry } from '../entry';
+import { Entry } from '../src/entry';
 
 describe('An entry', () => {
   it('should contain a path', () => {
