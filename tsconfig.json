@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "outDir": "dist",
+    "noImplicitAny": true,
+    "experimentalDecorators": true,
+    "declaration": true
+  },
+  "exclude": [
+    "node_modules",
+    "index.d.ts"
+  ]
+}
