@@ -42,7 +42,7 @@
     "coveralls": "2.11.12",
     "cz-conventional-changelog": "1.1.6",
     "in-publish": "2.0.0",
-    "mocha": "3.0.0",
+    "mocha": "3.0.1",
     "nyc": "7.1.0",
     "rimraf": "2.5.4",
     "source-map-support": "0.4.2",
