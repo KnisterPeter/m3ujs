@@ -62,6 +62,7 @@
   },
   "nyc": {
     "exclude": [
+      "node_modules",
       "coverage",
       "dist/test"
     ]
