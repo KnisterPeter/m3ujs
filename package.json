@@ -50,7 +50,7 @@
     "typescript": "1.8.10"
   },
   "dependencies": {
-    "id3v2": "0.2.1"
+    "id3v2": "0.2.2"
   },
   "publishConfig": {
     "tag": "next"
