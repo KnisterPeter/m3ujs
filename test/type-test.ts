@@ -1,9 +1,10 @@
 import { assert } from 'chai';
-import { IType, M3U, EXTM3U } from '../src/type';
+
 import { Entry } from '../src/entry';
+import { Type, M3U, EXTM3U } from '../src/type';
 
 describe('A type', () => {
-  let type: IType;
+  let type: Type;
 
   describe('created as m3u', () => {
 

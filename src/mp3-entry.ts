@@ -1,5 +1,5 @@
-import { resolve } from 'path';
 import { ID3v2 } from 'id3v2';
+import { resolve } from 'path';
 
 import { Entry } from './entry';
 

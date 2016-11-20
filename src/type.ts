@@ -1,11 +1,13 @@
 import { relative, dirname } from 'path';
 import { Entry } from './entry';
 
-export interface IType {
+// the IType is for backward compatibility
+export type IType = Type;
+export interface Type {
   write(path: string, entries: Entry[]): string;
 }
 
-export class TypeM3U implements IType {
+export class TypeM3U implements Type {
 
   public write(path: string, entries: Entry[]): string {
     const dir = path ? dirname(path) : undefined;
@@ -19,7 +21,7 @@ export class TypeM3U implements IType {
 
 export type FormatFunction = (entry: Entry) => string;
 
-export class TypeEXTM3U implements IType {
+export class TypeEXTM3U implements Type {
 
   private formatFn: FormatFunction;
 

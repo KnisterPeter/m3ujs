@@ -1,15 +1,16 @@
 import { writeFileSync } from 'fs';
 import { resolve } from 'path';
-import { IType } from './type';
+
 import { Entry } from './entry';
+import { Type } from './type';
 
 export class Playlist {
 
-  private type: IType;
+  private type: Type;
 
   private entries: Entry[] = [];
 
-  constructor(type: IType) {
+  constructor(type: Type) {
     this.type = type;
   }
 
