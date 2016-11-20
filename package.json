@@ -9,6 +9,7 @@
     "index.d.ts"
   ],
   "scripts": {
+    "linter": "tslint --project ./tsconfig.json --type-check",
     "clean": "rimraf dist",
     "prebuild": "npm run clean",
     "build": "tsc --sourceMap",
@@ -38,6 +39,7 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "@knisterpeter/standard-tslint": "1.0.1",
     "chai": "3.5.0",
     "coveralls": "2.11.15",
     "cz-conventional-changelog": "1.2.0",
