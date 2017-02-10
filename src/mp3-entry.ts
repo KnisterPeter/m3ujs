@@ -7,8 +7,7 @@ export class Mp3Entry extends Entry {
 
   private id3v2: ID3v2;
 
-  constructor(path: string);
-  constructor(path: string, id3v2: ID3v2);
+  constructor(path: string, id3v2?: ID3v2);
   constructor(path: string, length: number, displayName: string);
   constructor(path: string, ...rest: any[]) {
     super(resolve(path),
