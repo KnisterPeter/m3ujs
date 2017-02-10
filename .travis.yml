@@ -1,14 +1,15 @@
 sudo: false
 language: node_js
 node_js:
+- 'stable'
 - '6'
-- '5'
 - '4'
 matrix:
   fast_finish: true
 branches:
   only:
     - master
+    - /^greenkeeper-.*$/
 cache:
   directories:
   - node_modules
@@ -16,4 +17,5 @@ notifications:
   email:
     on_success: never
 before_script: 'npm run linter'
+script: 'npm run test'
 after_script: 'npm run coverage && cat ./coverage/lcov.info | ./node_modules/.bin/coveralls'
