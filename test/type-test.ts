@@ -20,6 +20,14 @@ describe('A type', () => {
 
       assert.equal(type.write('./list.m3u', entries), 'a\nb\n');
     });
+
+    it('should write absolute path entries', () => {
+      const entries = [
+        new Entry('/a/b')
+      ];
+
+      assert.equal(type.write(null, entries), '/a/b\n');
+    });
   });
 
   describe('created as extm3u', () => {
@@ -35,6 +43,14 @@ describe('A type', () => {
       ];
 
       assert.equal(type.write('list', entries), '#EXTM3U\n#EXTINF:-1,\na\n#EXTINF:10,abc\nb\n');
+    });
+
+    it('should write absolute path entries', () => {
+      const entries = [
+        new Entry('/a/b')
+      ];
+
+      assert.equal(type.write(null, entries), '#EXTM3U\n#EXTINF:-1,\n/a/b\n');
     });
   });
 });
