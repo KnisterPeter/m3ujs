@@ -37,4 +37,16 @@ describe('An mp3 entry', () => {
       assert.equal(entry.artist, 'artist');
     });
   });
+
+  describe('given a length and name', () => {
+    before(() => {
+      const file = join(__dirname, 'test.mp3');
+      entry = new Mp3Entry(file, 10, 'name');
+    });
+
+    it('should contain id3 tag data', () => {
+      assert.equal(entry.length, 10);
+      assert.equal(entry.displayName, 'name');
+    });
+  });
 });

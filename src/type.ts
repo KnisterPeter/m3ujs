@@ -9,7 +9,7 @@ export interface Type {
 
 export class TypeM3U implements Type {
 
-  public write(path: string, entries: Entry[]): string {
+  public write(path: string|null, entries: Entry[]): string {
     const dir = path ? dirname(path) : undefined;
     return entries
       .map(entry => dir ? relative(dir, entry.path) : entry.path)
