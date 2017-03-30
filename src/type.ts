@@ -31,6 +31,7 @@ export class TypeEXTM3U implements Type {
 
   public write(path: string, entries: Entry[]): string {
     const dir = path ? dirname(path) : undefined;
+    // tslint:disable-next-line prefer-template
     return '#EXTM3U\n'
       + entries.map(entry =>
           `#EXTINF:${entry.length},${this.formatFn(entry)}\n${dir ? relative(dir, entry.path) : entry.path}`)
