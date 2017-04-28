@@ -47,7 +47,7 @@
     "mocha": "3.3.0",
     "nyc": "10.2.0",
     "rimraf": "2.6.1",
-    "source-map-support": "0.4.14",
+    "source-map-support": "0.4.15",
     "standard-version": "4.0.0",
     "tslint": "^5.0.0",
     "typescript": "2.2.2"
