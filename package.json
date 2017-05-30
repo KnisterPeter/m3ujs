@@ -50,7 +50,7 @@
     "source-map-support": "0.4.15",
     "standard-version": "4.0.0",
     "tslint": "^5.2.0",
-    "typescript": "2.3.3"
+    "typescript": "2.3.4"
   },
   "dependencies": {
     "id3v2": "0.2.2"
