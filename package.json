@@ -40,7 +40,7 @@
   "license": "MIT",
   "devDependencies": {
     "@knisterpeter/standard-tslint": "1.5.1",
-    "chai": "3.5.0",
+    "chai": "4.0.1",
     "coveralls": "2.13.1",
     "cz-conventional-changelog": "1.2.0",
     "in-publish": "2.0.0",
