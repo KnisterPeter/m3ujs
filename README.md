@@ -1,5 +1,7 @@
 # m3ujs
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/KnisterPeter/m3ujs.svg)](https://greenkeeper.io/)
+
 [![GitHub license](https://img.shields.io/github/license/KnisterPeter/m3ujs.svg)]()
 [![Travis](https://img.shields.io/travis/KnisterPeter/m3ujs.svg)](https://travis-ci.org/KnisterPeter/m3ujs)
 [![Coveralls branch](https://img.shields.io/coveralls/KnisterPeter/m3ujs/master.svg)](https://coveralls.io/github/KnisterPeter/m3ujs)
