@@ -42,7 +42,7 @@
     "@knisterpeter/standard-tslint": "1.6.0",
     "chai": "4.1.0",
     "coveralls": "2.13.1",
-    "cz-conventional-changelog": "1.2.0",
+    "cz-conventional-changelog": "2.0.0",
     "in-publish": "2.0.0",
     "mocha": "3.5.0",
     "nyc": "11.1.0",
