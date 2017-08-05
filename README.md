@@ -1,14 +1,11 @@
 # m3ujs
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/KnisterPeter/m3ujs.svg)](https://greenkeeper.io/)
-
 [![GitHub license](https://img.shields.io/github/license/KnisterPeter/m3ujs.svg)]()
 [![Travis](https://img.shields.io/travis/KnisterPeter/m3ujs.svg)](https://travis-ci.org/KnisterPeter/m3ujs)
 [![Coveralls branch](https://img.shields.io/coveralls/KnisterPeter/m3ujs/master.svg)](https://coveralls.io/github/KnisterPeter/m3ujs)
-[![David](https://img.shields.io/david/KnisterPeter/m3ujs.svg)](https://david-dm.org/KnisterPeter/m3ujs)
-[![David](https://img.shields.io/david/dev/KnisterPeter/m3ujs.svg)](https://david-dm.org/KnisterPeter/m3ujs#info=devDependencies&view=table)
 [![npm](https://img.shields.io/npm/v/m3ujs.svg)](https://www.npmjs.com/package/m3ujs)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+[![Greenkeeper badge](https://badges.greenkeeper.io/KnisterPeter/m3ujs.svg)](https://greenkeeper.io/)
 
 Create m3u files.
 
