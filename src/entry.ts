@@ -6,7 +6,7 @@ export class Entry {
 
   private _displayName: string;
 
-  constructor(path: string, length: number = -1, displayName = '') {
+  constructor(path: string, length = -1, displayName = '') {
     this._path = path;
     this._length = length;
     this._displayName = displayName;
