@@ -23,7 +23,7 @@ export type FormatFunction = (entry: Entry) => string;
 
 export class TypeEXTM3U implements Type {
 
-  private formatFn: FormatFunction;
+  private readonly formatFn: FormatFunction;
 
   constructor(formatFn: FormatFunction) {
     this.formatFn = formatFn;

@@ -1,10 +1,10 @@
 export class Entry {
 
-  private _path: string;
+  private readonly _path: string;
 
-  private _length: number;
+  private readonly _length: number;
 
-  private _displayName: string;
+  private readonly _displayName: string;
 
   constructor(path: string, length = -1, displayName = '') {
     this._path = path;

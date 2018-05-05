@@ -2,6 +2,7 @@ sudo: false
 language: node_js
 node_js:
 - 'stable'
+- '8'
 - '6'
 - '4'
 matrix:
@@ -13,7 +14,7 @@ branches:
     - /^greenkeeper/.*$/
 cache:
   directories:
-  - node_modules
+    - node_modules
 notifications:
   email:
     on_success: never
