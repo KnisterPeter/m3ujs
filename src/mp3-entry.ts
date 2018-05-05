@@ -5,7 +5,7 @@ import { Entry } from './entry';
 
 export class Mp3Entry extends Entry {
 
-  private id3v2: ID3v2;
+  private readonly id3v2: ID3v2;
 
   constructor(path: string, id3v2?: ID3v2);
   constructor(path: string, length: number, displayName: string);

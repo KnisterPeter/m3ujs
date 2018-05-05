@@ -1,3 +1,4 @@
+// tslint:disable-next-line:no-implicit-dependencies
 import { assert } from 'chai';
 import { ID3v2 } from 'id3v2';
 import { join } from 'path';

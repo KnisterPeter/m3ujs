@@ -6,9 +6,9 @@ import { Type } from './type';
 
 export class Playlist {
 
-  private type: Type;
+  private readonly type: Type;
 
-  private entries: Entry[] = [];
+  private readonly entries: Entry[] = [];
 
   constructor(type: Type) {
     this.type = type;
