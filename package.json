@@ -39,7 +39,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@knisterpeter/standard-tslint": "1.7.1",
+    "@knisterpeter/standard-tslint": "1.7.2",
     "chai": "4.1.2",
     "coveralls": "3.0.1",
     "cz-conventional-changelog": "^2.0.0",
