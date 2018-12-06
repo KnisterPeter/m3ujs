@@ -66,5 +66,21 @@
       "coverage",
       "dist/test"
     ]
+  },
+  "renovate": {
+    "extends": [
+      "config:base"
+    ],
+    "lockFileMaintenance": {
+      "enabled": true
+    },
+    "packageRules": [
+      {
+        "packagePatterns": [
+          "^@types/"
+        ],
+        "automerge": true
+      }
+    ]
   }
 }
