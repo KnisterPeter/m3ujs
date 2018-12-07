@@ -19,4 +19,4 @@ notifications:
     on_success: never
 before_script: 'npm run linter'
 script: 'npm run test'
-after_script: 'npm run coverage && cat ./coverage/lcov.info | ./node_modules/.bin/coveralls'
+after_script: 'npm run coverage'

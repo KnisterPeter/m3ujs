@@ -23,7 +23,7 @@
     "postrelease": "git push --follow-tags origin master && npm publish",
     "prepublish": "not-in-install && npm run build || echo 'In install cycle, skipping prepublish'",
     "precoverage": "npm run clean && tsc --inlineSourceMap && cp test/*.mp3 dist/test/",
-    "coverage": "nyc --reporter lcov ./node_modules/.bin/mocha --recursive dist/test --all"
+    "coverage": "nyc --reporter lcov ./node_modules/.bin/mocha --recursive dist/test --all && codecov"
   },
   "repository": {
     "type": "git",
@@ -41,6 +41,7 @@
   "devDependencies": {
     "@knisterpeter/standard-tslint": "1.7.2",
     "chai": "4.2.0",
+    "codecov": "3.1.0",
     "coveralls": "3.0.1",
     "cz-conventional-changelog": "2.1.0",
     "in-publish": "2.0.0",
