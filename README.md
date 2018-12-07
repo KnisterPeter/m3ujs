@@ -2,10 +2,9 @@
 
 [![GitHub license](https://img.shields.io/github/license/KnisterPeter/m3ujs.svg)]()
 [![Travis](https://img.shields.io/travis/KnisterPeter/m3ujs.svg)](https://travis-ci.org/KnisterPeter/m3ujs)
-[![Coveralls branch](https://img.shields.io/coveralls/KnisterPeter/m3ujs/master.svg)](https://coveralls.io/github/KnisterPeter/m3ujs)
-[![npm](https://img.shields.io/npm/v/m3ujs.svg)](https://www.npmjs.com/package/m3ujs)
+[![codecov](https://codecov.io/gh/KnisterPeter/m3ujs/branch/master/graph/badge.svg)](https://codecov.io/gh/KnisterPeter/m3ujs)[![npm](https://img.shields.io/npm/v/m3ujs.svg)](https://www.npmjs.com/package/m3ujs)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
-[![Greenkeeper badge](https://badges.greenkeeper.io/KnisterPeter/m3ujs.svg)](https://greenkeeper.io/)
+[![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com/)
 
 Create m3u files.
 
