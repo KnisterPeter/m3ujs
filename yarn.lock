@@ -1417,17 +1417,19 @@ https-proxy-agent@^2.2.1:
     agent-base "^4.1.0"
     debug "^3.1.0"
 
-iconv-lite@0.4.13:
-  version "0.4.13"
-  resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.13.tgz#1f88aba4ab0b1508e8312acc39345f36e992e2f2"
-  integrity sha1-H4irpKsLFQjoMSrMOTRfNumS4vI=
-
-id3v2@^0.2.2:
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/id3v2/-/id3v2-0.2.2.tgz#6a33168ad49899f5e44b073672ab021a6feb850b"
-  integrity sha1-ajMWitSYmfXkSwc2cqsCGm/rhQs=
+iconv-lite@0.4.24:
+  version "0.4.24"
+  resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.24.tgz#2022b4b25fbddc21d2f524974a474aafe733908b"
+  integrity sha512-v3MXnZAcvnywkTUEZomIActle7RXXeedOR31wwl7VlyoXO4Qi9arvSenNQWne1TcRwhCL1HwLI21bEqdpj8/rA==
   dependencies:
-    iconv-lite "0.4.13"
+    safer-buffer ">= 2.1.2 < 3"
+
+id3v2@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/id3v2/-/id3v2-2.0.0.tgz#bafd6287abdd02a3673300ce02c053d79ef26115"
+  integrity sha512-utsd5EuNDTwpXPGrLUvzgFwtxLiGdlF+Ty+mnGVpJc4IDthUO+KXHXANTKHUs5gROThZv7w8lr3Icj9M0wu6Vg==
+  dependencies:
+    iconv-lite "0.4.24"
 
 ignore-walk@^3.0.1:
   version "3.0.1"
@@ -2774,7 +2776,7 @@ safe-regex@^1.1.0:
   dependencies:
     ret "~0.1.10"
 
-safer-buffer@^2.0.2, safer-buffer@^2.1.0, safer-buffer@~2.1.0:
+"safer-buffer@>= 2.1.2 < 3", safer-buffer@^2.0.2, safer-buffer@^2.1.0, safer-buffer@~2.1.0:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==

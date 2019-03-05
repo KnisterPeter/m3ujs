@@ -54,7 +54,7 @@
     "typescript": "3.3.3333"
   },
   "dependencies": {
-    "id3v2": "^0.2.2"
+    "id3v2": "^2.0.0"
   },
   "config": {
     "commitizen": {
