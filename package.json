@@ -41,7 +41,7 @@
   "devDependencies": {
     "@knisterpeter/standard-tslint": "1.7.2",
     "@types/chai": "4.2.15",
-    "@types/mocha": "8.2.0",
+    "@types/mocha": "8.2.1",
     "@types/node": "11.15.45",
     "chai": "4.3.0",
     "codecov": "3.8.1",
