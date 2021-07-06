@@ -40,7 +40,7 @@
   "license": "MIT",
   "devDependencies": {
     "@knisterpeter/standard-tslint": "1.7.2",
-    "@types/chai": "4.2.19",
+    "@types/chai": "4.2.20",
     "@types/mocha": "8.2.2",
     "@types/node": "14.17.4",
     "chai": "4.3.4",
