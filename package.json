@@ -44,7 +44,7 @@
     "@types/mocha": "8.2.3",
     "@types/node": "14.17.5",
     "chai": "4.3.4",
-    "codecov": "3.8.2",
+    "codecov": "3.8.3",
     "coveralls": "3.1.1",
     "cz-conventional-changelog": "3.3.0",
     "in-publish": "2.0.1",
