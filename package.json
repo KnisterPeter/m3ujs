@@ -42,7 +42,7 @@
     "@knisterpeter/standard-tslint": "1.7.2",
     "@types/chai": "4.3.5",
     "@types/mocha": "9.1.1",
-    "@types/node": "18.16.10",
+    "@types/node": "18.16.12",
     "chai": "4.3.7",
     "codecov": "3.8.3",
     "coveralls": "3.1.1",
